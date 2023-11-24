@@ -1,0 +1,97 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+background-color: azure;
+}
+.sec{
+background-color: azure;
+text-decoration: dotted;
+align-items: center;
+}
+.body{
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 20px 100px 100px;
+  margin: 0px;
+  background:azure;
+  box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+}
+
+.nav{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 20px;
+  margin: 0px;
+  background:#e3e6f3;
+  box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+}
+
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+}
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+
+}
+#navbar li a:hover,
+#navbar li a.active{
+color:aqua;
+}
+#fh{
+  padding: 20px;
+  margin: 0;
+  background-color:azure;
+  border-radius: 1px;
+  height: 35vh;
+  width: 100%;
+  background-size: cover;
+}
+#fh2{
+  padding: 20px;
+  margin: 0;
+  background-color: azure;
+  border-radius: 1px;
+  height: 35vh;
+  width: 100%;
+  background-size: cover;
+
+}
+section video{
+max-width: 500px;
+max-height: 500px;
+float: right;
+border: white;
+border-radius: 10px;
+margin-right: 0;
+padding: 2%;
+}
+.sectionp{
+  padding: 0px;
+  margin: 0;
+  background-color: beige;
+  height: 400vhS;
+  width: 100%;
+  font-size: 25px;
+}
+
+p{
+  font-size: 25px;
+}
+h1{
+  font-size: xx-large;
+}
